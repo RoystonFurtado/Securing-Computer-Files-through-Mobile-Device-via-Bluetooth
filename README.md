@@ -1,2 +1,6 @@
 # Securing-Computer-Files-through-Mobile-Device-via-Bluetooth
 This is a bluetooth based system that can hide files stored in your computer using an Android App on your mobile device.
+
+You need to first install this android app on your mobile device and establish a bluetooth connection with your computer system through this software.Once the connection has been established you need to select the files which you want to hide and click on Lock.THATS IT.Your computer files are now hidden and the only way to unhide them will be to unlock them through the android app on your mobile device.The android app has a lock and unlock button which will hide and unhide the files which were selected by you through the software.This software hides the files completely in such a way that it cannot be traced by any means.The only way to make the files visible again is through establishing a bluetooth connection between this software and your android app and pressing the unlock button.
+
+This software is developed using C#.To establish a bluetooth connection between the software and android app, BluetoothServerSocket is used with RFCOMM socket type(RFCOMM is a connection-oriented, streaming transport over Bluetooth BR/EDR).For bluetooth based communication Android uses android.bluetooth package and C# uses InTheHand.Net.Sockets package.
